@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Company Profile Restoran Menyala</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <style>
+    /*full screen hero section */
+    #home {
+      height: 100vh;
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url('img/Menyala.jpg') no-repeat center center/cover;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    #home h1 {
+            font-size: 4rem;
+            font-weight: bold;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        #home p {
+            font-size: 1.5rem;
+            margin-top: 15px;
+            animation: fadeIn 2.5s ease-in-out;
+        }
+  </style>
+ 
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+    <div class="container">
+      <a class="navbar-brand" href="#">Restoran menyala</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#menu">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Hero Section -->
+  <section id="home">
+    <div class="container">
+        <h1>Welcome to<br>restoran menyala</h1>
+        <p>restoran menyala resto yang menyajikan hidangan pedas yang disukai kaum gen Z.</p>
+    </div>
+</section>
+
+  <!-- Hero Section -->
+  <section class="hero d-flex justify-content-center align-items-center">
+    <div class="text-center text-white">
+      <h1>Welcome to Restoran Menyala</h1>
+      <p>Where taste meets quality!</p>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h2>About Us</h2>
+          <p>Restoran Menyala adalah restoran yang didirikan pada tahun 2025 dengan tujuan menghadirkan cita rasa yang super pedas serta otentik dan berkualitas. Kami hanya menggunakan bahan-bahan segar dan pilihan untuk setiap hidangan yang kami sajikan agar pengunjung bisa menikmatinya dengan nikmat.</p>
+        </div>
+        <div class="col-md-6">
+          <img src="img/resto.jpg" width="500px" height="200px" alt="About Image" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <section id="menu" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center">Our Menu</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="img/nasi goreng spesial Menyala.jpg" width="200px" height="300px" class="card-img-top" alt="Menu Item 1">
+            <div class="card-body">
+              <h5 class="card-title">Nasi Goreng Special Menyala</h5>
+              <p class="card-text">Nasi goreng menyala dengan bumbu khas dan tambahan topping daging serta sayuran segar dan serbuk cabai yang super pedas.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="img/mie ayam Menyala.jpg" width="200px" height="300px" class="card-img-top" alt="Menu Item 2">
+            <div class="card-body">
+              <h5 class="card-title">Mie Ayam Menyala</h5>
+              <p class="card-text">Mie ayam menyala dengan bumbu racikan khas memakai ayam spesial super pedas yang lezat dan pedas hingga menembus tenggorokan.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="img/es campur penawar.jpg" width="200px" height="300px" class="card-img-top" alt="Menu Item 3">
+            <div class="card-body">
+              <h5 class="card-title">Es Campur Penawar</h5>
+              <p class="card-text">Hidangan penutup dengan berbagai macam buah segar dan sirup manis yang menyegarkan untuk menghilangkan pedas yang menyala.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="text-center">Contact Us</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <h5>Alamat:</h5>
+          <p>Jl. Karawang mengkol dikit, no 28, Indonesia</p>
+          <h5>Telepon:</h5>
+          <p>(82) 123-4567</p>
+          <h5>Email:</h5>
+          <p>info@restoranMenyala.com</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black text-white text-center py-3">
+    <p>&copy; 2025 Restoran Menyala. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
